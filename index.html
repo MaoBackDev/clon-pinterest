@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Clone</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header  class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="https://www.pinterest.com" target="_blank" rel="noopener">
+                    <img src="./assets/logo.png" alt="Pinterest Logo">
+                </a>
+                <span>Pinterest</span>
+            </div>
+
+            <div id="menu-index"  class="menu"></div>
+        </nav>
+
+        <secttion id="top" class="hero">
+            <div></div>
+            <div class="hero-content">
+                <h1>Descubre tu próximo</h1>
+                <h2>Proyecto de bricolaje</h2>
+            </div>
+            <a href="#search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg> 
+            </a>
+            <p class="bar-bottom">Aquí te mostramos como funciona</p>
+        </secttion>
+    </header>
+
+    <main>
+        <section id="search" class="section section-container">
+            <div class="search-images">
+                <div class="">
+                    <img src="./assets/topRight-d0230035.png">
+                </div>
+                <div class="">
+                    <img src="./assets/left-511a9304.png">
+                </div>
+                <div class="">
+                    <img src="./assets/right-88044782.png">
+                </div>
+                <div class="">
+                    <img src="./assets/center-77497603.png">
+                </div>
+                <a href="">
+                    <i class="bi bi-search"></i>&nbsp;Cena fácil con pollo
+                </a>
+            </div>
+            
+            <div class="search-text">
+               <h2>Busca una idea</h2>
+               <p>
+                ¿Qué quieres probar ahora? Piensa en algo que te guste, como "cena<br>fácil con pollo", y mira lo que<br> encuentras.
+               </p>
+               <a href="" class="btn">Explorar</a>
+            </div>
+        </section>
+
+        <section id="save" class="section section-container">
+            <div class="save-text">
+                <h2>Guarda las ideas que te gusten</h2>
+                <p>
+                    Recopila tus favoritos para volver a verlos después.
+                </p>
+                <a href="" class="btn">Explorar</a>
+            </div>
+
+            <div class="save-images">
+                <div class="">
+                    <img src="./assets/future-home-vibes-55a673b9.png">
+                </div>
+                <div class="">
+                    <img src="./assets/scandinavian-bedroom-917ad89c.png">
+                </div>
+                <div class="">
+                    <img src="./assets/deck-of-dreams-fb527bf1.png">
+                </div>
+                <div class="">
+                    <img src="./assets/serve-my-drinks-263547ea.png">
+                </div>
+                <div class="">
+                    <img src="./assets/bathroom-upgrade-48ebb8fc.png">
+                </div>
+            </div>
+        </section>
+
+        <section id="shop" class="section section-container">
+            <div class="shop-images">
+                <div class="">
+                    <img src="./assets/shop-bd0c8a04.png">
+                </div>
+                <div class="">
+                    <img src="./assets/creator-pin-img-491ebb56.png">
+                </div>
+                <div class="">
+                    <img src="./assets/creator-avatar-d7a05622.png">
+                </div>
+                <div class="">
+                    <p>Scout the city</p>
+                    <span>56.7 mil<br>seguidores</span>
+                </div>
+            </div>
+
+            <div class="shop-text">
+                <h2>Míralo, créalo, Pruébalo, hazlo</h2>
+                <p>
+                    Lo mejor de Pinterest es descubrir cosas e ideas nuevas de personas de todo el mundo.
+                </p>
+                <a href="" class="btn">Explorar</a>
+            </div>
+        </section>
+
+        <section id="bottom" class="section">
+
+            <div class="bottom-content">
+                <div class="bottom-text">
+                    <h2>Regístrate para ver tus ideas</h2>
+                </div>
+
+                <article class="bottom-form">
+                    <article class="bottom-form-content">
+                        <header>
+                            <img src="./assets/logo.png" alt="Logo Pinterest">
+                            <h2>Te damos la bienvenida a Pinterest</h2>
+                            <p>Encuntra nuevas ideas para<br>experimentar</p>
+                        </header>
+                        
+                        <form class="form">
+                            <div class="form-control">
+                                <label for="">Correo electrónico</label>
+                                <input type="email" placeholder="Correo electrónico">
+                            </div>
+
+                            <div class="form-control">
+                                <label for="">Contraseña</label>
+                                <input type="password" placeholder="Contraseña">
+                            </div>
+
+                            <div class="form-control">
+                                <label for="">Fecha de nacimiento</label>
+                                <input type="date">
+                            </div>
+
+                            <div class="form-buttons">
+                                <button>Continuar</button>
+                                <p>0</p>
+                                <button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                    </svg>
+                                    Continuar con Facebook
+                                </button>
+                                <button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="blue" class="bi bi-google" viewBox="0 0 16 16">
+                                        <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                                    </svg>
+                                    Continuar con google
+                                </button>
+                            </div>
+                            <div class="form-politician">
+                                <small>
+                                    Al continuar, acepta las <strong>condiciones de servicio</strong> de Pinterest y reconoces que leístes nuestra <strong>política de privacidad.</strong>
+                                </small>
+                            </div>
+                        </form>
+                    </article> 
+                </article>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

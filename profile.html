@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul id="nav" class="menu"></ul> <!-- Dynamic content. Loading with JS -->
+           
+        <form>
+            <div class="input-group">
+                <i class="bi bi-search"></i>
+                <label for="">Buscar...</label>  
+                <input type="text" placeholder="Search">
+            </div>
+        </form>
+            
+
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="#" class="notification" title="Notificaciones">
+                    <i class="bi bi-bell-fill"></i>
+                    <span class="count-notification">5</span>
+                </a>
+            </li>
+
+            <li class="menu-item"> 
+                <a href="#"  title="Mensajes">
+                    <i class="bi bi-chat-dots-fill"></i>
+                </a>
+            </li>
+
+            <li class="menu-item">
+                <img src="./assets/avatar.jpg" alt="Profile image" title="Tú Perfíl">
+            </li>
+
+            <li class="menu-item sub-menu">
+                <a href="#"  title="Cuenta y más opciones">
+                    <i class="bi bi-chevron-down"></i>
+                </a>
+
+                <div class="submenu-content">
+                    <small>Actualmente en</small>
+                    <section class="current-account">
+                        <a href="">
+                            <img src="./assets/avatar.jpg" alt="" width="60" height="60">
+                            <div>
+                                <h4>Mauricio Arrieta</h4>
+                                <p>Personal</p>
+                                <p>maoguevara.2410@gmail...</p>
+                            </div>
+                        </a>
+
+                    </section>
+
+                    <section class="your-accounts">
+                        <small>Tus Cuentas</small>
+                        <nav>
+                            <a href="">Agregar Cuenta</a>
+                            <a href="">Convertir en cuenta para empresa</a>
+                        </nav>
+
+                    </section>
+
+                    <section class="options">
+                        <small>Más Opciones</small>
+                        <nav>
+                            <a href="">Configuración</a>
+                            <a href="">Mejora tu feed de inicio</a>
+                            <a href="">Instalar la aplicación de Chrome</a>
+                            <a href="">Tus derechos de privacidad</a>
+                            <a href="">Obtener ayuda</a>
+                            <a href="">Ver condiciones del servicio</a>
+                            <a href="">Ver política de seguridad</a>
+                            <a href="">Sé un evaludor Beta</a>
+                            <a href="">Salir</a>
+                        </nav>
+                    </section>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="gallery">
+            <div class="gallery-img">
+                <img src="./assets/imagen1.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="gallery-img">
+                <img src="./assets/imagen10.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen11.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen12.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen13.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen14.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen15.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen16.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen17.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen18.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen19.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen2.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen20.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen21.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen22.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen23.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen24.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen25.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen26.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen27.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen28.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen29.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen3.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen30.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen4.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen5.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen6.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen7.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen8.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen9.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen31.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen32.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen33.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen34.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen35.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen46.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="gallery-img">
+                <img src="./assets/imagen11.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen45.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen3.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen15.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen36.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen37.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen38.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen39.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen40.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen41.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen42.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen43.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen44.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen47.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+            <div class="gallery-img">
+                <img src="./assets/imagen48.jpg" alt="">
+                <aside class="gallery-img-info">
+                    <button class="img-save">Guardar</button>
+                    <div class="img-info-buttons">
+                        <button><i class="bi bi-download"></i></button>
+                        <button><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
