@@ -72,7 +72,7 @@ d.addEventListener('DOMContentLoaded', (e) => {
 responsiveMedia(
     'menu-index', 
     '(min-width: 768px)', 
-    `<button class="btn btn-login">Iniciar Sesión</button>`, 
+    `<a href="profile.html" target="_blank" class="btn btn-login">Iniciar Sesión</a>`, 
     `<a href="#">Información</a>
     <a href="#">Empresa</a>
     <a href="#">Blog</a>
